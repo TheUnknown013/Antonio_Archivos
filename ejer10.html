@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="f.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav><div class="logo1">
+        <img src="descarga.jfif" width="25%">
+        </div>
+        <form action="#" method="POST">
+            <h2>Formulario de Contacto</h2>
+
+            <label for="nombre">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+
+            <label for="apellidos"></label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+
+            <label for="direccion">
+            <input type="text" id="direccion" name="direccion"  placeholder="direccion" required></label></label>
+
+            <div class="group">
+                <div>
+                    <label for="municipio"></label>
+                    <select id="municipio" name="municipio" required>
+                        <option value="">Selecciona un municipio</option>
+                        <option value="municipio1">Chimalhuacan</option>
+                        <option value="municipio2">Nezahualcoyotl</option>
+                        <option value="municipio3">Los reyes</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="estado"></label>
+                    <select id="estado" name="estado" required>
+                        <option value="">Selecciona un estado</option>
+                        <option value="estado1">Nuevo Leon</option>
+                        <option value="estado2">Mexico</option>
+                        <option value="estado3">Coahuila</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="cp"></label>
+                    <input type="text" id="cp" name="cp" placeholder="Codigo Postal"required>
+                </div>
+            </div>
+
+            <label for="telefono" color="width"></label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Telefono" required>
+
+            <label for="fecha-nacimiento"></label>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+            <label for="terminos">
+                <input type="checkbox" id="terminos" name="terminos" required>
+                Acepto Términos
+            </label>
+
+            <label for="comentarios">Comentarios Adicionales</label>
+            <textarea id="comentarios" name="comentarios" placeholder="Comentario Adicional"></textarea>
+
+         
+
+            <button type="submit">Remitir</button>
+        </form>
+    </div>
+</body>
+</html>

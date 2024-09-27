@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <form method="get">
+            <p>
+                <label for="Nombre">Nombre</label><br>
+                <input type="text" id="Nombre" name="Nombre" autofocus required placeholder="proporcione su nombre"><br><br>
+            </p>
+
+            <div id="contenedor">
+                <form>
+                    <p>
+                        <label for="Apelliodo">Apellido</label><br>
+                        <input type="text" id="Apellido" size="40" required placeholder="proporcione su Apellido"><br><br>
+                    </p>
+
+                    <p>
+                        <label for="Estatus">Estatus</label><br>
+                        <input type="text" name="Estatus" value="activo" readonly title="Este valor es solo de lectura"><br><br>
+                    </p>
+
+                    <p>
+                        <label for="Contraseña">Sin contraseña</label><br>
+                        <input type="password" id="Contraseña" name="Contraseña" required placeholder="Ejemplo:Antonio50#">
+                    </p>
+
+                    <p>
+                        <label for="navegador">Navegador favorito</label>
+                        <select id="navegador" name="navegador" required>
+                            <option value="chrome">Google chrpme</option>
+                            <option value="opera">opera</option>
+                            <option value="edge">edge</option>
+                            <option value="safari">Gogle chrpme</option>
+                            <option value="chrome">Google chrpme</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <input type="submit" name="Enviar" valuae="Enviar">
+                    </p>
+                    <p>
+                        <input type="hidden" name="nip" value="765">
+                    </p>
+        </form>
+    </div>
+</body>
+</html>
